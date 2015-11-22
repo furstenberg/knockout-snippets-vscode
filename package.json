@@ -1,0 +1,24 @@
+{
+	"name": "Knockout.js Snippets for VS Code",
+	"description": "Knockout.js Snippets for VS Code",
+	"version": "0.0.1",
+	"publisher": "Michael Fürstenberg",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            }
+		]
+	}
+}

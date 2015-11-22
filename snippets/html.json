@@ -1,0 +1,68 @@
+{
+	// "kocb": {
+	// 	"prefix": "kocb",
+	// 	"body": "<label><input type=\"checkbox\" id=\"$1\" name=\"$2\" value=\"$3\" data-bind=\"${4:checked}: $5\">${6:label}</label>",
+	// 	"description": "Checkbox field with binding",
+	// 	"scope": "text.html"
+	// },
+	// "kosb": {
+	// 	"prefix": "kosb",
+	// 	"body": "<select multiple id=\"$1\" name=\"$2\" data-bind=\"options: ${3:optionValues}, value: ${4:selectedValue}\">",
+	// 	"description": "Multiple select box with binding",
+	// 	"scope": "text.html"
+	// },
+	// "korb": {
+	// 	"prefix": "korb",
+	// 	"body": "<label><input type=\"radio\" value=\"$1\" data-bind=\"${2:checked}: $4\" />${5:label}</label>\n",
+	// 	"description": "Radio button with binding",
+	// 	"scope": "text.html"
+	// },
+	// "kosb1": {
+	// 	"prefix": "kosb",
+	// 	"body": "<select id=\"$1\" name=\"$2\" data-bind=\"options: ${3:optionValues}, value: ${4:selectedValue}\">",
+	// 	"description": "Select box with binding",
+	// 	"scope": "text.html"
+	// },
+	// "kota": {
+	// 	"prefix": "kota",
+	// 	"body": "<textarea type=\"text\" id=\"$1\" name=\"$2\" data-bind=\"${3:value}: $4\"></textarea>",
+	// 	"description": "Text area with binding",
+	// 	"scope": "text.html"
+	// },
+	// "kotf": {
+	// 	"prefix": "kotf",
+	// 	"body": "<input type=\"text\" id=\"$1\" name=\"$2\" data-bind=\"${3:value}: $4\">",
+	// 	"description": "Text field with binding",
+	// 	"scope": "text.html"
+	// },
+	"kodbe": {
+		"prefix": "kodbe",
+		"body": "data-bind=\"${1:click}: $2\"",
+		"description": "data-bind event",
+		"scope": "text.html"
+	},
+	"kodbf": {
+		"prefix": "kodbf",
+		"body": "data-bind=\"${1:click}: function($2) { $3 }\"",
+		"description": "data-bind function call",
+		"scope": "text.html"
+	},
+	"kodbtmp": {
+		"prefix": "kodbtmp",
+		"body": " data-bind='template: {name: \"$1\", ${2:foreach: $3}}'",
+		"description": "data-bind template",
+		"scope": "text.html"
+	},
+	"kodbt": {
+		"prefix": "kodbt",
+		"body": "data-bind=\"text: $1\"",
+		"description": "The textInput binding  `data-bind='text: '`",
+		"scope": "text.html"
+	},
+	"kodbv": {
+		"prefix": "kodbv",
+		"body": "data-bind=\"value: $1\"\n",
+		"description": "data-bind value",
+		"scope": "text.html"
+	}
+}
