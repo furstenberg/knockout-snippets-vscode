@@ -17,7 +17,7 @@ This extension for Visual Studio Code adds snippets for Knockout.js.
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.
+Below is a list of available snippets and the triggers for them. The **⇥** means the `TAB` key.
 
 ### Bindings
 
@@ -30,7 +30,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `kodbc→`   | The css binding 		`data-bind="css: "` |
 | `kodbs→`   | The style binding 	`data-bind="style: "` |
 | `kodba→`   | The attr binding 	`data-bind="attr: "` |
-
+<!--
 #### Control flow
 | Trigger  | Content |
 | -------: | ------- |
@@ -69,7 +69,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `imd→`   | Observable Arrays  `data-bind="text: "` |
 | `ime→`   | Computed Observables `import * as localAlias from 'fs';` |
 | `ima→`   | Pure computed observables `import { rename  as localRename } from 'fs';` |
-
+-->
 You can press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
 ### Credits
