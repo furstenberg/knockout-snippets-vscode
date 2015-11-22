@@ -1,7 +1,7 @@
 {
 	"name": "Knockout.js Snippets for VS Code",
 	"description": "Knockout.js Snippets for VS Code",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "Michael Fürstenberg",
 	"engines": {
 		"vscode": "^0.10.1"

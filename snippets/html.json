@@ -35,22 +35,28 @@
 	// 	"description": "Text field with binding",
 	// 	"scope": "text.html"
 	// },
-	"kodbe": {
-		"prefix": "kodbe",
-		"body": "data-bind=\"${1:click}: $2\"",
-		"description": "data-bind event",
-		"scope": "text.html"
-	},
-	"kodbf": {
-		"prefix": "kodbf",
-		"body": "data-bind=\"${1:click}: function($2) { $3 }\"",
-		"description": "data-bind function call",
-		"scope": "text.html"
-	},
-	"kodbtmp": {
-		"prefix": "kodbtmp",
-		"body": " data-bind='template: {name: \"$1\", ${2:foreach: $3}}'",
-		"description": "data-bind template",
+	// "kodbe": {
+	// 	"prefix": "kodbe",
+	// 	"body": "data-bind=\"${1:click}: $2\"",
+	// 	"description": "data-bind event",
+	// 	"scope": "text.html"
+	// },
+	// "kodbf": {
+	// 	"prefix": "kodbf",
+	// 	"body": "data-bind=\"${1:click}: function($2) { $3 }\"",
+	// 	"description": "data-bind function call",
+	// 	"scope": "text.html"
+	// },
+	// "kodbtmp": {
+	// 	"prefix": "kodbtmp",
+	// 	"body": " data-bind='template: {name: \"$1\", ${2:foreach: $3}}'",
+	// 	"description": "data-bind template",
+	// 	"scope": "text.html"
+	// },
+	"kodbv": {
+		"prefix": "kodbv",
+		"body": "data-bind=\"visible: $1\"\n",
+		"description": "The visible binding  `data-bind='visible: '`",
 		"scope": "text.html"
 	},
 	"kodbt": {
@@ -59,10 +65,28 @@
 		"description": "The textInput binding  `data-bind='text: '`",
 		"scope": "text.html"
 	},
-	"kodbv": {
-		"prefix": "kodbv",
-		"body": "data-bind=\"value: $1\"\n",
-		"description": "data-bind value",
+	"kodbh": {
+		"prefix": "kodbh",
+		"body": "data-bind=\"html: $1\"",
+		"description": "The html binding  `data-bind='html: '`",
 		"scope": "text.html"
-	}
+	},
+	"kodbc": {
+		"prefix": "kodbc",
+		"body": "data-bind=\"css: $1\"",
+		"description": "The css binding  `data-bind='css: '`",
+		"scope": "text.html"
+	},
+	"kodbs": {
+		"prefix": "kodbs",
+		"body": "data-bind=\"style: $1\"",
+		"description": "The style binding  `data-bind='style: '`",
+		"scope": "text.html"
+	},
+	"kodba": {
+		"prefix": "kodba",
+		"body": "data-bind=\"attr: $1\"",
+		"description": "The attr binding  `data-bind='attr: '`",
+		"scope": "text.html"
+	}	
 }

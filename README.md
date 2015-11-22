@@ -24,17 +24,17 @@ Below is a list of all available snippets and the triggers of each one. The **�
 #### Controlling text and appearance
 | Trigger  | Content |
 | -------: | ------- |
-| `imp→`   | The visible binding `data-bind="visible: "`|
-| `imd→`   | The text binding  `data-bind="text: "` |
-| `ime→`   | The html binding `import * as localAlias from 'fs';` |
-| `ima→`   | The css binding `import { rename  as localRename } from 'fs';` |
-| `enf→`   | The style binding `export const log = (parameter) => { console.log(parameter);};` |
-| `edf→`   | The attr binding `export default  (parameter) => { console.log(parameter);};` |
+| `kodbv→`   | The visible binding	`data-bind="visible: "`|
+| `kodbt→`   | The text binding 	`data-bind="text: "` |
+| `kodbh→`   | The html binding 	`data-bind="html: "` |
+| `kodbc→`   | The css binding 		`data-bind="css: "` |
+| `kodbs→`   | The style binding 	`data-bind="style: "` |
+| `kodba→`   | The attr binding 	`data-bind="attr: "` |
 
 #### Control flow
 | Trigger  | Content |
 | -------: | ------- |
-| `imp→`   | The foreach binding `data-bind="visible: "`|
+| `kofe→`   | The foreach binding `data-bind="visible: "`|
 | `imd→`   | The if binding  `data-bind="text: "` |
 | `ime→`   | The ifnot binding `import * as localAlias from 'fs';` |
 | `ima→`   | The with binding `import { rename  as localRename } from 'fs';` |
@@ -71,3 +71,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `ima→`   | Pure computed observables `import { rename  as localRename } from 'fs';` |
 
 You can press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
+
+### Credits
+
+Initially based upon [Knockout.JS TextMate bundle](https://github.com/napcs/knockout-tmbundle) by Brian Hogan.
