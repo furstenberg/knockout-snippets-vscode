@@ -1,22 +1,22 @@
 {
-	"kovmf": {
-		"prefix": "kovmf",
-		"body": "var ${1:Foo} = function(${2}){\n  $0\n};\n\n${3:var ${4:foo} = new ${1:Foo}(${5});\nko.applyBindings(${4:foo});}",
-		"description": "New View model as function",
-		"scope": "source.js"
-	},
-	"kovmh": {
-		"prefix": "kovmh",
-		"body": "var ${1:foo} = {\n  $0\n};\n\n${2:ko.applyBindings(${1:foo});}",
-		"description": "New View model as hash",
-		"scope": "source.js"
-	},
-	"kodo": {
-		"prefix": "kodo",
-		"body": "ko.dependentObservable(function(){\n  return(\n    $1\n  );\n}, this);\n",
-		"description": "ko.dependentObservable",
-		"scope": "source.js"
-	},
+	// "kovmf": {
+	// 	"prefix": "kovmf",
+	// 	"body": "var ${1:Foo} = function(${2}){\n  $0\n};\n\n${3:var ${4:foo} = new ${1:Foo}(${5});\nko.applyBindings(${4:foo});}",
+	// 	"description": "New View model as function",
+	// 	"scope": "source.js"
+	// },
+	// "kovmh": {
+	// 	"prefix": "kovmh",
+	// 	"body": "var ${1:foo} = {\n  $0\n};\n\n${2:ko.applyBindings(${1:foo});}",
+	// 	"description": "New View model as hash",
+	// 	"scope": "source.js"
+	// },
+	// "kodo": {
+	// 	"prefix": "kodo",
+	// 	"body": "ko.dependentObservable(function(){\n  return(\n    $1\n  );\n}, this);\n",
+	// 	"description": "ko.dependentObservable",
+	// 	"scope": "source.js"
+	// },
 	"koo": {
 		"prefix": "koo",
 		"body": "ko.observable(${1:});\n",
