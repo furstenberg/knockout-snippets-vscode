@@ -26,38 +26,7 @@ Below is a list of available snippets and the triggers for them. The **⇥** mea
 | `kodbc→`   | The css binding 		`data-bind="css: "` |
 | `kodbs→`   | The style binding 	`data-bind="style: "` |
 | `kodba→`   | The attr binding 	`data-bind="attr: "` |
-<!--
-#### Control flow
-| Trigger  | Content |
-| -------: | ------- |
-| `kofe→`   | The foreach binding `data-bind="visible: "`|
-| `imd→`   | The if binding  `data-bind="text: "` |
-| `ime→`   | The ifnot binding `import * as localAlias from 'fs';` |
-| `ima→`   | The with binding `import { rename  as localRename } from 'fs';` |
-| `enf→`   | The component binding `export const log = (parameter) => { console.log(parameter);};` |
 
-#### Working with form fields
-| Trigger  | Content |
-| -------: | ------- |
-| `imp→`   | The click binding `data-bind="visible: "`|
-| `imd→`   | The event binding  `data-bind="text: "` |
-| `ime→`   | The submit binding `import * as localAlias from 'fs';` |
-| `ima→`   | The enable binding `import { rename  as localRename } from 'fs';` |
-| `enf→`   | The disable binding `export const log = (parameter) => { console.log(parameter);};` |
-| `imp→`   | The value binding `data-bind="visible: "`|
-| `imd→`   | The textInput binding  `data-bind="text: "` |
-| `ime→`   | The hasFocus binding `import * as localAlias from 'fs';` |
-| `ima→`   | The checked binding `import { rename  as localRename } from 'fs';` |
-| `enf→`   | The options binding `export const log = (parameter) => { console.log(parameter);};` |
-| `ima→`   | The selectedOptions binding `import { rename  as localRename } from 'fs';` |
-| `enf→`   | The uniqueName binding `export const log = (parameter) => { console.log(parameter);};` |
-
-#### Rendering templates
-| Trigger  | Content |
-| -------: | ------- |
-| `imp→`   | The template binding `data-bind="visible: "`|
-
--->
 ### Observables
 
 | Trigger  | Content |
