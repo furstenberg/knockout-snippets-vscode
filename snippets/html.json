@@ -1,92 +1,68 @@
 {
-	// "kocb": {
-	// 	"prefix": "kocb",
-	// 	"body": "<label><input type=\"checkbox\" id=\"$1\" name=\"$2\" value=\"$3\" data-bind=\"${4:checked}: $5\">${6:label}</label>",
-	// 	"description": "Checkbox field with binding",
-	// 	"scope": "text.html"
-	// },
-	// "kosb": {
-	// 	"prefix": "kosb",
-	// 	"body": "<select multiple id=\"$1\" name=\"$2\" data-bind=\"options: ${3:optionValues}, value: ${4:selectedValue}\">",
-	// 	"description": "Multiple select box with binding",
-	// 	"scope": "text.html"
-	// },
-	// "korb": {
-	// 	"prefix": "korb",
-	// 	"body": "<label><input type=\"radio\" value=\"$1\" data-bind=\"${2:checked}: $4\" />${5:label}</label>\n",
-	// 	"description": "Radio button with binding",
-	// 	"scope": "text.html"
-	// },
-	// "kosb1": {
-	// 	"prefix": "kosb",
-	// 	"body": "<select id=\"$1\" name=\"$2\" data-bind=\"options: ${3:optionValues}, value: ${4:selectedValue}\">",
-	// 	"description": "Select box with binding",
-	// 	"scope": "text.html"
-	// },
-	// "kota": {
-	// 	"prefix": "kota",
-	// 	"body": "<textarea type=\"text\" id=\"$1\" name=\"$2\" data-bind=\"${3:value}: $4\"></textarea>",
-	// 	"description": "Text area with binding",
-	// 	"scope": "text.html"
-	// },
-	// "kotf": {
-	// 	"prefix": "kotf",
-	// 	"body": "<input type=\"text\" id=\"$1\" name=\"$2\" data-bind=\"${3:value}: $4\">",
-	// 	"description": "Text field with binding",
-	// 	"scope": "text.html"
-	// },
-	// "kodbe": {
-	// 	"prefix": "kodbe",
-	// 	"body": "data-bind=\"${1:click}: $2\"",
-	// 	"description": "data-bind event",
-	// 	"scope": "text.html"
-	// },
-	// "kodbf": {
-	// 	"prefix": "kodbf",
-	// 	"body": "data-bind=\"${1:click}: function($2) { $3 }\"",
-	// 	"description": "data-bind function call",
-	// 	"scope": "text.html"
-	// },
-	// "kodbtmp": {
-	// 	"prefix": "kodbtmp",
-	// 	"body": " data-bind='template: {name: \"$1\", ${2:foreach: $3}}'",
-	// 	"description": "data-bind template",
-	// 	"scope": "text.html"
-	// },
-	"kodbv": {
-		"prefix": "kodbv",
+	"kovi": {
+		"prefix": "kovi",
 		"body": "data-bind=\"visible: $1\"\n",
 		"description": "The visible binding  `data-bind='visible: '`",
 		"scope": "text.html"
 	},
-	"kodbt": {
-		"prefix": "kodbt",
+	"kotet": {
+		"prefix": "kote",
 		"body": "data-bind=\"text: $1\"",
 		"description": "The textInput binding  `data-bind='text: '`",
 		"scope": "text.html"
 	},
-	"kodbh": {
-		"prefix": "kodbh",
+	"koht": {
+		"prefix": "koht",
 		"body": "data-bind=\"html: $1\"",
 		"description": "The html binding  `data-bind='html: '`",
 		"scope": "text.html"
 	},
-	"kodbc": {
-		"prefix": "kodbc",
+	"kocs": {
+		"prefix": "kocs",
 		"body": "data-bind=\"css: $1\"",
 		"description": "The css binding  `data-bind='css: '`",
 		"scope": "text.html"
 	},
-	"kodbs": {
-		"prefix": "kodbs",
+	"kost": {
+		"prefix": "kost",
 		"body": "data-bind=\"style: $1\"",
 		"description": "The style binding  `data-bind='style: '`",
 		"scope": "text.html"
 	},
-	"kodba": {
-		"prefix": "kodba",
+	"koat": {
+		"prefix": "koat",
 		"body": "data-bind=\"attr: $1\"",
 		"description": "The attr binding  `data-bind='attr: '`",
+		"scope": "text.html"
+	},
+	"kofe": {
+		"prefix": "kofe",
+		"body": "data-bind=\"foreach: $1\"",
+		"description": "The foreach binding  `data-bind='foreach: '`",
+		"scope": "text.html"
+	},
+	"koif": {
+		"prefix": "koif",
+		"body": "data-bind=\"if: $1\"",
+		"description": "The if binding  `data-bind='if: '`",
+		"scope": "text.html"
+	},
+	"koin": {
+		"prefix": "koin",
+		"body": "data-bind=\"ifnot: $1\"",
+		"description": "The ifnot binding  `data-bind='ifnot: '`",
+		"scope": "text.html"
+	},
+	"kowi": {
+		"prefix": "kowi",
+		"body": "data-bind=\"with: $1\"",
+		"description": "The with binding  `data-bind='with: '`",
+		"scope": "text.html"
+	},
+	"koco": {
+		"prefix": "koco",
+		"body": "data-bind=\"component: $1\"",
+		"description": "The component binding  `data-bind='component: '`",
 		"scope": "text.html"
 	}	
 }

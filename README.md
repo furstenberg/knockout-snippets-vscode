@@ -20,18 +20,28 @@ Below is a list of available snippets and the triggers for them. The **⇥** mea
 #### Controlling text and appearance
 | Trigger  | Content |
 | -------: | ------- |
-| `kodbv→`   | The visible binding	`data-bind="visible: "`|
-| `kodbt→`   | The text binding 	`data-bind="text: "` |
-| `kodbh→`   | The html binding 	`data-bind="html: "` |
-| `kodbc→`   | The css binding 		`data-bind="css: "` |
-| `kodbs→`   | The style binding 	`data-bind="style: "` |
-| `kodba→`   | The attr binding 	`data-bind="attr: "` |
+| `kovi→`   | The visible binding	`data-bind="visible: "`|
+| `kote→`   | The text binding 	`data-bind="text: "` |
+| `koht→`   | The html binding 	`data-bind="html: "` |
+| `kocs→`   | The css binding 		`data-bind="css: "` |
+| `kost→`   | The style binding 	`data-bind="style: "` |
+| `koat→`   | The attr binding 	`data-bind="attr: "` |
+
+#### Control flow
+| Trigger  | Content |
+| -------: | ------- |
+| `kofe→`   | The foreach binding `data-bind="foreach: "`|
+| `koif→`   | The if binding  `data-bind="if: "` |
+| `koin→`   | The ifnot binding `data-bind="ifnot: "` |
+| `kowi→`   | The with binding  `data-bind="with: "` |
+| `koco→`   | The component binding `data-bind="component: "` |
+
 
 ### Observables
 
 | Trigger  | Content |
 | -------: | ------- |
-| `koo→`   | Observable |
+| `koob→`   | Observable |
 | `kooa→`   | Observable Arrays  |
 | `koco→`   | Computed Observables |
 | `kopc→`   | Pure computed observables |
