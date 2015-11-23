@@ -64,8 +64,8 @@ Below is a list of available snippets and the triggers for them. The **⇥** mea
 | -------: | ------- |
 | `koo→`   | Observable |
 | `kooa→`   | Observable Arrays  |
-| `koco→`   | Computed Observables `import * as localAlias from 'fs';` |
-| `kopc→`   | Pure computed observables `import { rename  as localRename } from 'fs';` |
+| `koco→`   | Computed Observables |
+| `kopc→`   | Pure computed observables |
 
 You can press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
