@@ -2,8 +2,6 @@
 
 This extension for Visual Studio Code adds snippets for Knockout.js.
 
-<!-- ![Use Extension](images/use-extension.gif) -->
-
 ## Installation
 
 1. Install Visual Studio Code 0.10.1 or higher
@@ -12,8 +10,6 @@ This extension for Visual Studio Code adds snippets for Knockout.js.
 4. Select `Install Extension`
 5. Choose the extension
 6. Reload Visual Studio Code
-
-<!-- ![Install Extension](images/install-extension.gif) -->
 
 ## Snippets
 
@@ -61,15 +57,16 @@ Below is a list of available snippets and the triggers for them. The **⇥** mea
 | -------: | ------- |
 | `imp→`   | The template binding `data-bind="visible: "`|
 
+-->
 ### Observables
 
 | Trigger  | Content |
 | -------: | ------- |
-| `imp→`   | Observable `data-bind="visible: "`|
-| `imd→`   | Observable Arrays  `data-bind="text: "` |
-| `ime→`   | Computed Observables `import * as localAlias from 'fs';` |
-| `ima→`   | Pure computed observables `import { rename  as localRename } from 'fs';` |
--->
+| `koo→`   | Observable |
+| `kooa→`   | Observable Arrays  |
+| `koco→`   | Computed Observables `import * as localAlias from 'fs';` |
+| `kopc→`   | Pure computed observables `import { rename  as localRename } from 'fs';` |
+
 You can press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate snippets from within the editor.
 
 ### Credits

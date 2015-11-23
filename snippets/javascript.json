@@ -19,14 +19,26 @@
 	// },
 	"koo": {
 		"prefix": "koo",
-		"body": "ko.observable(${1:});\n",
+		"body": "self.${1:} = ko.observable(${2:});\n${0:}",
 		"description": "ko.observable",
 		"scope": "source.js"
 	},
 	"kooa": {
 		"prefix": "kooa",
-		"body": "ko.observableArray(${1:});\n",
+		"body": "self.${1:} = ko.observableArray(${2:});\n${0:}",
 		"description": "ko.observableArray",
+		"scope": "source.js"
+	},
+	"koco": {
+		"prefix": "koco",
+		"body": "self.${1:} = ko.computed(function(){\n\treturn self.${2:}\n});\n${0:}",
+		"description": "ko.computed",
+		"scope": "source.js"
+	},
+	"kopc": {
+		"prefix": "kopc",
+		"body": "self.${1:} = ko.pureComputed(function(){\n\treturn self.${2:}\n});\n${0:}",
+		"description": "ko.pureComputed",
 		"scope": "source.js"
 	}
 }
