@@ -1,6 +1,7 @@
 {
 	"name": "knockoutjs",
 	"description": "Knockout.js Snippets for VS Code",
+	"icon": "images/knockoutjs.jpg",
     "galleryBanner": {
         "color": "#A71500",
         "theme": "dark"
@@ -9,7 +10,7 @@
         "type": "git",
         "url": "https://github.com/furstenberg/knockout-snippets-vscode"
     },
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"displayName": "Knockout.js Snippets for VS Code",
 	"publisher": "furstenberg",
 	"engines": {
