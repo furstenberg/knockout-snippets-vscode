@@ -10,7 +10,7 @@
         "type": "git",
         "url": "https://github.com/furstenberg/knockout-snippets-vscode"
     },
-	"version": "0.0.7",
+	"version": "0.1.0",
 	"displayName": "Knockout.js Snippets for VS Code",
 	"publisher": "furstenberg",
 	"engines": {

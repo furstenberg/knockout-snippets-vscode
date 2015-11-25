@@ -64,5 +64,83 @@
 		"body": "data-bind=\"component: $1\"",
 		"description": "The component binding  `data-bind='component: '`",
 		"scope": "text.html"
+	},
+	"kocl": {
+		"prefix": "kocl",
+		"body": "data-bind=\"click: $1\"",
+		"description": "The click binding  `data-bind='click: '`",
+		"scope": "text.html"
+	},
+	"koev": {
+		"prefix": "koev",
+		"body": "data-bind=\"event: {${1:event} : ${2:object}}\" $0",
+		"description": "The event binding  `data-bind='event: '`",
+		"scope": "text.html"
+	},
+	"kosu": {
+		"prefix": "kosu",
+		"body": "data-bind=\"submit: $1\"",
+		"description": "The submit binding  `data-bind='submit: '`",
+		"scope": "text.html"
+	},
+	"koen": {
+		"prefix": "koen",
+		"body": "data-bind=\"enable: $1\"",
+		"description": "The enable binding  `data-bind='enable: '`",
+		"scope": "text.html"
+	},
+	"kodi": {
+		"prefix": "kodi",
+		"body": "data-bind=\"disable: $1\"",
+		"description": "The disable binding  `data-bind='disable: '`",
+		"scope": "text.html"
+	},
+	"kova": {
+		"prefix": "kova",
+		"body": "data-bind=\"value: $1\"",
+		"description": "The value binding  `data-bind='value: '`",
+		"scope": "text.html"
+	},
+	"koti": {
+		"prefix": "koti",
+		"body": "data-bind=\"textInput: $1\"",
+		"description": "The textInput binding  `data-bind='textInput: '`",
+		"scope": "text.html"
+	},
+	"kohf": {
+		"prefix": "kohf",
+		"body": "data-bind=\"hasFocus: $1\"",
+		"description": "The hasFocus binding  `data-bind='hasFocus: '`",
+		"scope": "text.html"
+	},
+	"koch": {
+		"prefix": "koch",
+		"body": "data-bind=\"checked: $1\"",
+		"description": "The checked binding  `data-bind='checked: '`",
+		"scope": "text.html"
+	},
+	"koop": {
+		"prefix": "koop",
+		"body": "data-bind=\"options: $1\"",
+		"description": "The options binding  `data-bind='options: '`",
+		"scope": "text.html"
+	},
+	"koso": {
+		"prefix": "koso",
+		"body": "data-bind=\"selectedOptions: $1\"",
+		"description": "The selectedOptions binding  `data-bind='selectedOptions: '`",
+		"scope": "text.html"
+	},
+	"koun": {
+		"prefix": "koun",
+		"body": "data-bind=\"uniqueName: $1\"",
+		"description": "The uniqueName binding  `data-bind='uniqueName: '`",
+		"scope": "text.html"
+	},
+	"kotm": {
+		"prefix": "kotm",
+		"body": "data-bind=\"template: $1\"",
+		"description": "The template binding  `data-bind='template: '`",
+		"scope": "text.html"
 	}	
 }

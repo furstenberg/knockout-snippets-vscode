@@ -36,6 +36,26 @@ Below is a list of available snippets and the triggers for them. The **⇥** mea
 | `kowi→`   | The with binding  `data-bind="with: "` |
 | `koco→`   | The component binding `data-bind="component: "` |
 
+#### Working with form fields
+| Trigger  | Content |
+| -------: | ------- |
+| `kocl→`   | The click binding `data-bind="click: "`|
+| `koev→`   | The event binding  `data-bind="event: "` |
+| `kosu→`   | The submit binding `data-bind="submit: "` |
+| `koen→`   | The enable binding `data-bind="enable: "` |
+| `kodi→`   | The disable binding `data-bind="disable: "` |
+| `kova→`   | The value binding `data-bind="value: "`|
+| `koti→`   | The textInput binding  `data-bind="textInput: "` |
+| `kohf→`   | The hasFocus binding `data-bind="hasFocus: "` |
+| `koch→`   | The checked binding `data-bind="checked: "` |
+| `koop→`   | The options binding `data-bind="options: "` |
+| `koso→`   | The selectedOptions binding `data-bind="selectedOptions: "` |
+| `koun→`   | The uniqueName binding `data-bind="uniqueName: "` |
+
+#### Rendering templates
+| Trigger  | Content |
+| -------: | ------- |
+| `kotm→`   | The template binding `data-bind="template: "`|
 
 ### Observables
 
@@ -51,3 +71,5 @@ You can press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to activate
 ### Credits
 
 Initially based upon [Knockout.JS TextMate bundle](https://github.com/napcs/knockout-tmbundle) by Brian Hogan.
+
+Logo by [Boyan Mihaylov](http://boyan.in)
